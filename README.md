@@ -1,6 +1,6 @@
 # Posgrado en Ciencia e Ingeniería de la Computación 
 
-###  Semestre: 2022-I
+###  Semestre: 2022-1
 
 ![alt text](figs/bg.png)
 
