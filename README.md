@@ -1,6 +1,6 @@
 # Posgrado en Ciencia e Ingeniería de la Computación 
 
-###  Semestre: 2022-I
+###  Semestre: 2022-1
 
 ![alt text](figs/bg.png)
 
@@ -42,13 +42,6 @@ Se deberán crear cuentas en las siguientes plataformas:
 ## Contenido del curso
 | No.        | Tema           | Conceptos |Código  |  Material complementario|
 | :-------------: |:-------------| :-------------|:-----:| :-----|
-| 1.              |Introducción a la programación con GPUs          | Introducción a CUDA, modelo de programación paralelo, consulta de dispositivo |   <ul><li>[Hello World](code/1.hello.cu)</li> <li>[vectorAdd](code/2.vectorAdd.cu)</li> <li>[CUDA Samples](https://github.com/NVIDIA/cuda-samples)</li></ul>    |  Capítulo 1 - (D.Kirk et al., 2017)
-| 2.              |Organización de bloque e Hilos     | Bloques,  hilos, indexación y rendimiento |   <ul><li>[vectorAdd](code/2.vectorAdd.cu)</li></ul>    |  Capítulos 2 y 3 - (D.Kirk et al., 2017)
-| 3.              |Organización de hilos y jerarquía de memoria  | Localidad de datos, memoria compartida, local y global |   <ul><li>[Importar Imágenes](code/importImage)</li></ul>    |  Capítulo 6 - (D.Kirk et al., 2017)
-| 4.              |Multiplicación de matrices  | Memoria global |   <ul><li>[Matrix mult. Global](code/3.matrixMultGlobal.cu)</li></ul>    |  Capítulos 4 y 5 - (D.Kirk et al., 2017)
-| 5.              |Multiplicación de matrices  | Memoria compartida, tiling |   <ul><li>[Matrix mult Shared](code/4.matrixMultShared.cu)</li></ul>    |  Capítulo 6 - (D.Kirk et al., 2017)
-| 6.              |Patrón de acceso paralelo: Convolución  | Memoria compartida, tiling, memoria constante|   <ul><li>[Convolution](code/convolution.cu) </li><li>[Convolution Tiled](code/convolution_tiled.cu) </li></ul>    |  Capítulo 7 - (D.Kirk et al., 2017)
-| 7.              |Patrón de acceso paralelo: Suma prefijo  | Memoria compartida, tiling |   <ul><li> </li></ul>    |  Capítulo 8 - (D.Kirk et al., 2017)
-| 8.              |Patrón de acceso paralelo: Histogramas  | Operaciones atómicas |   <ul><li>[Histogram](code/histogram.cu)</li></ul>    |  Capítulo 9 - (D.Kirk et al., 2017)
+| 1.              |Introducción a cuDNN          | Introducción a cuDNN, modelo de programación paralelo, arquitectura |   <ul> <li>[cuDNN Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>    |  [Artículo seminal](https://arxiv.org/abs/1410.0759)
 
-**Última actualización: 06 de abril de 2021**
+**Última actualización: 11 de agosto de 2021**
