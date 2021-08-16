@@ -43,5 +43,6 @@ Se deberán crear cuentas en las siguientes plataformas:
 | No.        | Tema           | Conceptos |Código  |  Material complementario|
 | :-------------: |:-------------| :-------------|:-----:| :-----|
 | 1.              |Introducción a cuDNN          | Introducción a cuDNN, modelo de programación paralelo, arquitectura |   <ul> <li>[cuDNN Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>    |  [Artículo seminal](https://arxiv.org/abs/1410.0759)
+| 2.              |API C++ y modelo de programación          | Modelo de programación paralelo |   <ul> <li>[device Query]()</li><li>[mnist - CUDNN]()</li></ul>    |  <ul> <li> [Getting Started](https://docs.nvidia.com/deeplearning/cudnn/index.html)</li> <li>[Guía de instalación](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) </li> </ul>
 
-**Última actualización: 11 de agosto de 2021**
+**Última actualización: 16 de agosto de 2021**
