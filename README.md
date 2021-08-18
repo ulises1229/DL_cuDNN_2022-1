@@ -45,4 +45,4 @@ Se deberán crear cuentas en las siguientes plataformas:
 | 1.              |Introducción a cuDNN          | Introducción a cuDNN, modelo de programación paralelo, arquitectura |   <ul> <li>[cuDNN Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>    |  [Artículo seminal](https://arxiv.org/abs/1410.0759)
 | 2.              |API C++ y modelo de programación          | Modelo de programación paralelo |   <ul> <li>[CUDA Samples](/code/cuda_samples_v11.4/Samples)</li><li>[cuDNN Samples](/code/cudnn_samples_v8)</li> <li>[Convolución simple](code/simple_convolution/conv.cu)</li></ul>    |  <ul> <li> [Getting Started](https://docs.nvidia.com/deeplearning/cudnn/index.html)</li> <li>[Guía de instalación](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) </li> </ul>
 
-**Última actualización: 16 de agosto de 2021**
+**Última actualización: 18 de agosto de 2021**
