@@ -21,17 +21,17 @@ Presentar al estudiante la librería cuDNN para la aceleración de operaciones e
 * Fundamentos de programación en GPUs
 
 #### Hardware
-Se deberá contar con una computadora con un GPU NVIDIA
+Se deberá contar con una computadora con un GPU NVIDIA o en su defecto solicitar acceso a un servidor remoto
 
 
 #### Software
 Se deberá contar con el siguiente software instalado 
 
-  + [CUDA Toolkit] (https://developer.nvidia.com/cuda-toolkit)
+  + [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit)
   + Entonrno de desarrollo integrado(IDE)
-    - Eclipse
-    - Clion
-  + cuDNN
+    - [Eclipse](https://developer.nvidia.com/nsight-eclipse-edition)
+    - [Clion](https://www.jetbrains.com/es-es/clion/)
+  + [cuDNN](https://developer.nvidia.com/cudnn)
     
 
 #### Cuentas
@@ -45,4 +45,4 @@ Se deberán crear cuentas en las siguientes plataformas:
 | 1.              |Introducción a cuDNN          | Introducción a cuDNN, modelo de programación paralelo, arquitectura |   <ul> <li>[cuDNN Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>    |  [Artículo seminal](https://arxiv.org/abs/1410.0759)
 | 2.              |API C++ y modelo de programación          | Modelo de programación paralelo |   <ul> <li>[CUDA Samples](/code/cuda_samples_v11.4/Samples)</li><li>[cuDNN Samples](/code/cudnn_samples_v8)</li> <li>[Convolución simple](code/simple_convolution/conv.cu)</li></ul>    |  <ul> <li> [Getting Started](https://docs.nvidia.com/deeplearning/cudnn/index.html)</li> <li>[Guía de instalación](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) </li> </ul>
 
-**Última actualización: 18 de agosto de 2021**
+**Última actualización: 20 de agosto de 2021**
