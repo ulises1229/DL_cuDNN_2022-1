@@ -139,13 +139,35 @@ int main(int argc, const char* argv[]) {
     cudaMalloc(&d_output, image_bytes);
     cudaMemset(d_output, 0, image_bytes);
 
-    // clang-format off
+    // Definition of feature map (edge detection variation)
     const float kernel_template[3][3] = {
             {1, 1, 1},
             {1, -8, 1},
             {1, 1, 1}
     };
-    // clang-format on
+
+  
+  
+    // Definition of feature map (edge detection variation)
+    /*const float kernel_template[3][3] = {
+            {0, 1, 0},
+            {1, -8, 1},
+            {0, 1, 0}
+    };*/
+    
+    // Definition of feature map (strong edge detection)
+    /*const float kernel_template[3][3] = {
+            {-1, -2, -1},
+            {0, 0, ,0},
+            {1, 2, 1}
+    };*/
+
+    // Definition of feature map (sharper image)
+    /*const float kernel_template[3][3] = {
+            {0, -1, 0},
+            {-1, 5, -1},
+            {0, -1, 0}
+    };*/
 
     float h_kernel[3][3][3][3];
     for (int kernel = 0; kernel < 3; ++kernel) {
