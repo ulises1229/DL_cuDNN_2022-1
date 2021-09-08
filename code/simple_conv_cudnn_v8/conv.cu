@@ -113,8 +113,6 @@ int main(int argc, const char* argv[]) {
             /*image_height=*/image.rows,
             /*image_width=*/image.cols));
 
-    
-
     size_t workspace_bytes{0};
     checkCUDNN(cudnnGetConvolutionForwardWorkspaceSize(cudnn,
                                                        input_descriptor,
@@ -201,7 +199,7 @@ int main(int argc, const char* argv[]) {
     float* h_output = new float[image_bytes];
     cudaMemcpy(h_output, d_output, image_bytes, cudaMemcpyDeviceToHost);
 
-    save_image("lenaFilter.png", h_output, height, width);
+    save_image("output.png", h_output, height, width);
 
     delete[] h_output;
     cudaFree(d_kernel);
