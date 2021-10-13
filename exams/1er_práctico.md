@@ -14,8 +14,5 @@ https://www.kaggle.com/ardamavi/sign-language-digits-dataset
 2. El proceso de inferencia se deberá realizar exclusivamente en cuDNN.
 
 ### Entregables:
-+ Descripción de la metodología para la obtención de resultados.
-
-+ Resultados:
- >   + Presición del modelo  
-+ Código fuente de la solución. 
+1. Descripción de la metodología y resultados (en un reporte simple)   
+2. Código fuente de la solución
