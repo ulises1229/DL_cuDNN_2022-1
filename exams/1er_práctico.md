@@ -8,10 +8,10 @@ Se deberá entrenar una Red Neuronal Convolucional para clasificar un conjunto d
 El dataset se podrá descargar del siguiente repositorio 
 https://github.com/ardamavi/Sign-Language-Digits-Dataset 
 
-El proceso de entrenamiento se podrá realizar en cuDNN o en el Framework de su preferencia. Se podrán utilizar los pesos de modelos pre entrenados.  Podrán utilizar como referencia las arquitecturas definidas en:  
+1. El proceso de entrenamiento se podrá realizar en cuDNN o en el Framework de su preferencia. Se podrán utilizar los pesos de modelos pre entrenados.  Podrán utilizar como referencia las arquitecturas definidas en:  
 https://www.kaggle.com/ardamavi/sign-language-digits-dataset
 
-El proceso de inferencia se deberá realizar exclusivamente en cuDNN.
+2. El proceso de inferencia se deberá realizar exclusivamente en cuDNN.
 
 ### Entregables:
 + Descripción de la metodología para la obtención de resultados.
