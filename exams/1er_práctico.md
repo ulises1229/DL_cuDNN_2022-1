@@ -3,7 +3,7 @@
 
 Se deberá entrenar una Red Neuronal Convolucional para clasificar un conjunto de imágenes que representan digitos a travésd e lenguaje de señas.
 
-![Digits](figs/digits.png)
+![Digits](../figs/digits.png)
  
 El dataset se podrá descargar del siguiente repositorio 
 https://github.com/ardamavi/Sign-Language-Digits-Dataset 
