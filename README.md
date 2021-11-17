@@ -48,4 +48,4 @@ Se deberán crear cuentas en las siguientes plataformas:
 | 4.              |Redes Neuronales Recurrentes          | Series, dependencias de corto y largo plazo |   <ul> <li>[RNN](code/cudnn_samples_v8/RNN/RNN_example.cu)</li> <li></li> <li></li> </ul>    |  <ul> <li> <li> </li></ul>
 
 
-**Última actualización: 04 de octubre de 2021**
+**Última actualización: 17 de noviembre de 2021**
