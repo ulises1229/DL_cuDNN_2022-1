@@ -46,6 +46,7 @@ Se deberán crear cuentas en las siguientes plataformas:
 | 2.              |API C++ y modelo de programación          | Modelo de programación paralelo |   <ul> <li>[CUDA Samples](/code/cuda_samples_v11.4/Samples)</li><li>[cuDNN Samples](/code/cudnn_samples_v8)</li> <li>[Convolución simple](code/simple_convolution/conv.cu)</li></ul>    |  <ul> <li> [Getting Started](https://docs.nvidia.com/deeplearning/cudnn/index.html)</li> <li>[Guía de instalación](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) </li> </ul>
 | 3.              |Convoluciones con cuDNN          | convoluciones, representación de memoria |   <ul> <li>[Convolución simple cudnn V8](code/simple_conv_cudnn_v8/conv.cu)</li> <li>[CmakeLists (Clion - cmake)](code/simple_conv_cudnn_v8/CMakeLists.txt)</li> <li>[mnist](code/cudnn_samples_v8/mnistCUDNN)</li> </ul>    |  <ul> <li>[cuDNN API Reference](https://docs.nvidia.com/deeplearning/cudnn/api/index.html) <li> [Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>
 | 4.              |Redes Neuronales Recurrentes          | Series, dependencias de corto y largo plazo |   <ul> <li>[RNN cuDNN](code/cudnn_samples_v8/RNN/RNN_example.cu) </ul>    |  <ul> <li> </li></ul>
+| 5.              |cuDNN Frontend API | Engines, Nknobs, Operation graphs,  |   <ul> <li>[CUDNN Frontend API](https://github.com/NVIDIA/cudnn-frontend) </ul>|<ul> <li> </li></ul>
 
 
-**Última actualización: 17 de noviembre de 2021**
+**Última actualización: 22 de noviembre de 2021**
