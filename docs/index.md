@@ -86,9 +86,7 @@ Se deberán crear cuentas en las siguientes plataformas:
 <td style="text-align:left">Engines, Nknobs, Operation graphs,</td>
 <td style="text-align:center"><ul> <li><a href="https://github.com/NVIDIA/cudnn-frontend">CUDNN Frontend API</a> </ul></td>
 <td style="text-align:left"><ul> <li> </li></ul></td>
-</tr>
-</tbody>
-</table>
+
 
 
 
