@@ -2,7 +2,7 @@
 
 ###  Semestre: 2022-1
 
-![alt text](figs/bg.png)
+![alt text](https://github.com/ulises1229/DL_cuDNN_2022-1/blob/main/figs/bg.png)
 
 
 ## Profesores
