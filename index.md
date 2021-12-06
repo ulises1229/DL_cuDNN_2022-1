@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+# Posgrado en Ciencia e Ingeniería de la Computación 
 
-You can use the [editor on GitHub](https://github.com/ulises1229/DL_cuDNN_2022-1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+###  Semestre: 2022-1
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![alt text](figs/bg.png)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Profesores
+ Dr. Ulises Olivares Pinto
+ 
+ Dr. David Oswaldo Pérez Martínez
 
-```markdown
-Syntax highlighted code block
+## Objetivo del curso
+Presentar al estudiante la librería cuDNN para la aceleración de operaciones elementales en arquitecturas de aprendizaje profundo en distintos tópicos de las ciencias de la computación. 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Prerequisitos
+#### Deseables
++ Dominio de los lenguajes de programación C y C++ 
++ Conicimiento básico de estructuras de datos y algoritmos
+* Fundamentos de programación en GPUs
 
-1. Numbered
-2. List
+#### Hardware
+Se deberá contar con una computadora con un GPU NVIDIA o en su defecto solicitar acceso a un servidor remoto
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+#### Software
+Se deberá contar con el siguiente software instalado 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+  + [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit)
+  + Entonrno de desarrollo integrado(IDE)
+    - [Eclipse](https://developer.nvidia.com/nsight-eclipse-edition)
+    - [Clion](https://www.jetbrains.com/es-es/clion/)
+  + [cuDNN](https://developer.nvidia.com/cudnn)
+    
 
-### Jekyll Themes
+#### Cuentas
+Se deberán crear cuentas en las siguientes plataformas:
+  + Crear una cuenta en GitHub
+  + Google Classroom
+  
+## Contenido del curso
+| No.        | Tema           | Conceptos |Código  |  Material complementario|
+| :-------------: |:-------------| :-------------|:-----:| :-----|
+| 1.              |Introducción a cuDNN          | Introducción a cuDNN, modelo de programación paralelo, arquitectura |   <ul> <li>[cuDNN Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>    |  [Artículo seminal](https://arxiv.org/abs/1410.0759)
+| 2.              |API C++ y modelo de programación          | Modelo de programación paralelo |   <ul> <li>[CUDA Samples](/code/cuda_samples_v11.4/Samples)</li><li>[cuDNN Samples](/code/cudnn_samples_v8)</li> <li>[Convolución simple](code/simple_convolution/conv.cu)</li></ul>    |  <ul> <li> [Getting Started](https://docs.nvidia.com/deeplearning/cudnn/index.html)</li> <li>[Guía de instalación](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) </li> </ul>
+| 3.              |Convoluciones con cuDNN          | convoluciones, representación de memoria |   <ul> <li>[Convolución simple cudnn V8](code/simple_conv_cudnn_v8/conv.cu)</li> <li>[CmakeLists (Clion - cmake)](code/simple_conv_cudnn_v8/CMakeLists.txt)</li> <li>[mnist](code/cudnn_samples_v8/mnistCUDNN)</li> </ul>    |  <ul> <li>[cuDNN API Reference](https://docs.nvidia.com/deeplearning/cudnn/api/index.html) <li> [Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>
+| 4.              |Redes Neuronales Recurrentes          | Series, dependencias de corto y largo plazo |   <ul> <li>[RNN cuDNN](code/cudnn_samples_v8/RNN/RNN_example.cu) </ul>    |  <ul> <li> </li></ul>
+| 5.              |cuDNN Frontend API | Engines, Nknobs, Operation graphs,  |   <ul> <li>[CUDNN Frontend API](https://github.com/NVIDIA/cudnn-frontend) </ul>|<ul> <li> </li></ul>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ulises1229/DL_cuDNN_2022-1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Última actualización: 22 de noviembre de 2021**
