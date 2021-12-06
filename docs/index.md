@@ -40,13 +40,55 @@ Se deberán crear cuentas en las siguientes plataformas:
   + Google Classroom
   
 ## Contenido del curso
-| No.        | Tema           | Conceptos |Código  |  Material complementario|
-| :-------------: |:-------------| :-------------|:-----:| :-----|
-| 1.              |Introducción a cuDNN          | Introducción a cuDNN, modelo de programación paralelo, arquitectura |   <ul> <li>[cuDNN Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>    |  [Artículo seminal](https://arxiv.org/abs/1410.0759)
-| 2.              |API C++ y modelo de programación          | Modelo de programación paralelo |   <ul> <li>[CUDA Samples](/code/cuda_samples_v11.4/Samples)</li><li>[cuDNN Samples](/code/cudnn_samples_v8)</li> <li>[Convolución simple](code/simple_convolution/conv.cu)</li></ul>    |  <ul> <li> [Getting Started](https://docs.nvidia.com/deeplearning/cudnn/index.html)</li> <li>[Guía de instalación](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html) </li> </ul>
-| 3.              |Convoluciones con cuDNN          | convoluciones, representación de memoria |   <ul> <li>[Convolución simple cudnn V8](code/simple_conv_cudnn_v8/conv.cu)</li> <li>[CmakeLists (Clion - cmake)](code/simple_conv_cudnn_v8/CMakeLists.txt)</li> <li>[mnist](code/cudnn_samples_v8/mnistCUDNN)</li> </ul>    |  <ul> <li>[cuDNN API Reference](https://docs.nvidia.com/deeplearning/cudnn/api/index.html) <li> [Developer Guide](https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html)</li></ul>
-| 4.              |Redes Neuronales Recurrentes          | Series, dependencias de corto y largo plazo |   <ul> <li>[RNN cuDNN](code/cudnn_samples_v8/RNN/RNN_example.cu) </ul>    |  <ul> <li> </li></ul>
-| 5.              |cuDNN Frontend API | Engines, Nknobs, Operation graphs,  |   <ul> <li>[CUDNN Frontend API](https://github.com/NVIDIA/cudnn-frontend) </ul>|<ul> <li> </li></ul>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">No.</th>
+<th style="text-align:left">Tema</th>
+<th style="text-align:left">Conceptos</th>
+<th style="text-align:center">Código</th>
+<th style="text-align:left">Material complementario</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1.</td>
+<td style="text-align:left">Introducción a cuDNN</td>
+<td style="text-align:left">Introducción a cuDNN, modelo de programación paralelo, arquitectura</td>
+<td style="text-align:center"><ul> <li><a href="https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html">cuDNN Developer Guide</a></li></ul></td>
+<td style="text-align:left"><a href="https://arxiv.org/abs/1410.0759">Artículo seminal</a></td>
+</tr>
+<tr>
+<td style="text-align:center">2.</td>
+<td style="text-align:left">API C++ y modelo de programación</td>
+<td style="text-align:left">Modelo de programación paralelo</td>
+<td style="text-align:center"><ul> <li><a href="/code/cuda_samples_v11.4/Samples">CUDA Samples</a></li><li><a href="/code/cudnn_samples_v8">cuDNN Samples</a></li> <li><a href="code/simple_convolution/conv.cu">Convolución simple</a></li></ul></td>
+<td style="text-align:left"><ul> <li> <a href="https://docs.nvidia.com/deeplearning/cudnn/index.html">Getting Started</a></li> <li><a href="https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html">Guía de instalación</a> </li> </ul></td>
+</tr>
+<tr>
+<td style="text-align:center">3.</td>
+<td style="text-align:left">Convoluciones con cuDNN</td>
+<td style="text-align:left">convoluciones, representación de memoria</td>
+<td style="text-align:center"><ul> <li><a href="code/simple_conv_cudnn_v8/conv.cu">Convolución simple cudnn V8</a></li> <li><a href="code/simple_conv_cudnn_v8/CMakeLists.txt">CmakeLists (Clion - cmake)</a></li> <li><a href="code/cudnn_samples_v8/mnistCUDNN">mnist</a></li> </ul></td>
+<td style="text-align:left"><ul> <li><a href="https://docs.nvidia.com/deeplearning/cudnn/api/index.html">cuDNN API Reference</a> <li> <a href="https://docs.nvidia.com/deeplearning/cudnn/developer-guide/index.html">Developer Guide</a></li></ul></td>
+</tr>
+<tr>
+<td style="text-align:center">4.</td>
+<td style="text-align:left">Redes Neuronales Recurrentes</td>
+<td style="text-align:left">Series, dependencias de corto y largo plazo</td>
+<td style="text-align:center"><ul> <li><a href="code/cudnn_samples_v8/RNN/RNN_example.cu">RNN cuDNN</a> </ul></td>
+<td style="text-align:left"><ul> <li> </li></ul></td>
+</tr>
+<tr>
+<td style="text-align:center">5.</td>
+<td style="text-align:left">cuDNN Frontend API</td>
+<td style="text-align:left">Engines, Nknobs, Operation graphs,</td>
+<td style="text-align:center"><ul> <li><a href="https://github.com/NVIDIA/cudnn-frontend">CUDNN Frontend API</a> </ul></td>
+<td style="text-align:left"><ul> <li> </li></ul></td>
+</tr>
+</tbody>
+</table>
 
 
 **Última actualización: 22 de noviembre de 2021**
