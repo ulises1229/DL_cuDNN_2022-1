@@ -91,4 +91,4 @@ Se deberán crear cuentas en las siguientes plataformas:
 </table>
 
 
-**Última actualización: 22 de noviembre de 2021**
+
